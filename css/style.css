@@ -50,6 +50,27 @@ body {
   color: var(--color-text-hover-focus);
 }
 
+.page-header {
+  border-bottom: 1px solid red;
+}
+/* #e7e9fc */
+
+.header-conteiner {
+  display: flex;
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.nav-page {
+  display: flex;
+  align-items: center;
+}
+
+.menu-nav {
+  display: flex;
+}
+
 .link-logo {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
