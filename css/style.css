@@ -51,11 +51,10 @@ body {
 }
 
 .page-header {
-  border-bottom: 1px solid red;
+  border-bottom: 1px solid #e7e9fc;
 }
-/* #e7e9fc */
 
-.header-conteiner {
+.container {
   display: flex;
   width: 1158px;
   margin: 0 auto;
