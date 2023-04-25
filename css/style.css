@@ -1,0 +1,167 @@
+:root {
+  --color-logo: #4d5ae5;
+  --color-text-head: #434455;
+  --color-text-sec: #2e2f42;
+  --color-white-light: #f4f4fd;
+  --color-text-hover-focus: #404bbf;
+  --bg-color-head: #ffffff;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-text-head);
+  background-color: var(--bg-color-head);
+}
+
+/***** Header *****/
+
+.page-header .menu-link:hover,
+.page-header .menu-link:focus {
+  color: var(--color-text-hover-focus);
+}
+
+.link-logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--color-logo);
+}
+
+.nav-page .logo-chank {
+  color: var(--color-text-sec);
+}
+
+.menu-nav .menu-link {
+  font-weight: 500;
+  color: var(--color-text-sec);
+}
+
+.address-header {
+  font-style: normal;
+}
+
+.menu-address .menu-link {
+  color: var(--color-text-head);
+}
+
+/* ***** Hero ***** */
+
+.hero {
+  background-color: var(--color-text-sec);
+}
+
+.title-page {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: var(--bg-color-head);
+}
+
+.button-order {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--bg-color-head);
+  background: var(--color-logo);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+}
+.button-order:hover,
+.button-order:focus {
+  background-color: var(--color-text-hover-focus);
+}
+/* ***** /Hero ***** */
+
+/* ***** Skills ***** */
+.title-description {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--color-text-sec);
+}
+/* ***** /Skills ***** */
+
+/* ***** Our Work ***** */
+.title-section {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--color-text-sec);
+}
+/* ***** /Our Work ***** */
+
+/* ***** Our Team ***** */
+
+.our-team {
+  background-color: var(--color-white-light);
+}
+
+.menu-our-team .menu-item {
+  background-color: var(--bg-color-head);
+}
+
+/* ***** /Our Team ***** */
+
+/* Footer */
+.footer-page {
+  background-color: var(--color-text-sec);
+}
+
+.footer-page .description {
+  color: var(--color-white-light);
+}
+
+.footer-page .logo-chank {
+  color: var(--color-white-light);
+}
+
+/* ***** Hero-Portfolio ***** */
+
+.button-filter {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: var(--color-logo);
+  cursor: pointer;
+  background-color: var(--color-white-light);
+}
+
+.button-filter:hover,
+.button-filter:focus {
+  color: var(--bg-color-head);
+  background: var(--color-text-hover-focus);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+
+.menu-img .description {
+  color: var(--color-text-head);
+}
+
+/* ***** /Hero-Portfolio ***** */ ;
