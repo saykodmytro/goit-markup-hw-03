@@ -77,8 +77,6 @@ body {
 
 .page-header .menu-item {
   margin-right: 40px;
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 .page-header .menu-item:last-child {
   margin-right: 0;
@@ -102,6 +100,12 @@ body {
 .menu-nav .menu-link {
   font-weight: 500;
   color: var(--color-text-sec);
+}
+
+.page-header .menu-link {
+  display: inline-block;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .menu-address {
