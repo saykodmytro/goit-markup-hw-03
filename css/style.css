@@ -59,6 +59,7 @@ body {
 }
 
 .container {
+  justify-content: space-between;
   display: flex;
   width: 1158px;
   margin: 0 auto;
@@ -72,7 +73,13 @@ body {
 
 .menu-nav {
   display: flex;
-  /* justify-content: space-between; */
+}
+
+.page-header .menu-item {
+  margin-right: 40px;
+}
+.page-header .menu-item:last-child {
+  margin-right: 0;
 }
 
 .link-logo {
@@ -93,6 +100,10 @@ body {
 .menu-nav .menu-link {
   font-weight: 500;
   color: var(--color-text-sec);
+}
+
+.menu-address {
+  display: flex;
 }
 
 .address-header {
