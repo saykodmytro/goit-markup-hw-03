@@ -34,6 +34,10 @@ img {
   text-decoration: none;
 }
 
+button {
+  cursor: pointer;
+}
+
 body {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
@@ -68,6 +72,7 @@ body {
 
 .menu-nav {
   display: flex;
+  /* justify-content: space-between; */
 }
 
 .link-logo {
@@ -78,6 +83,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--color-logo);
+  margin-right: 76px;
 }
 
 .nav-page .logo-chank {
@@ -96,6 +102,8 @@ body {
 .menu-address .menu-link {
   color: var(--color-text-head);
 }
+
+/***** /Header *****/
 
 /* ***** Hero ***** */
 
@@ -121,7 +129,6 @@ body {
   color: var(--bg-color-head);
   background: var(--color-logo);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  cursor: pointer;
 }
 .button-order:hover,
 .button-order:focus {
@@ -187,7 +194,6 @@ body {
   text-align: center;
   letter-spacing: 0.04em;
   color: var(--color-logo);
-  cursor: pointer;
   background-color: var(--color-white-light);
 }
 
