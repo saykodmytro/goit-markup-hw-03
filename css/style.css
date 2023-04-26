@@ -125,12 +125,9 @@ body {
 /* ***** Hero ***** */
 
 .hero {
-  background-color: var(--color-text-sec);
-}
-
-.hero {
   padding-top: 188px;
   padding-bottom: 188px;
+  background-color: var(--color-text-sec);
 }
 
 .title-page {
@@ -165,6 +162,19 @@ body {
 /* ***** /Hero ***** */
 
 /* ***** Skills ***** */
+.skills {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.menu-skils {
+  display: flex;
+}
+
+.menu-item {
+  outline: 1px solid red;
+}
+
 .title-description {
   font-weight: 500;
   font-size: 20px;
