@@ -96,7 +96,6 @@ body {
 
 .link-logo {
   font-family: "Raleway", sans-serif;
-  display: inline-block;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
@@ -288,7 +287,8 @@ body {
 }
 
 .link-logo {
-  padding-bottom: 16px;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 /* ***** Hero-Portfolio ***** */
