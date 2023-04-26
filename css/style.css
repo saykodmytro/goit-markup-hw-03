@@ -1,3 +1,10 @@
+.menu-item {
+  outline: 1px solid red;
+}
+.container {
+  outline: 1px solid green;
+}
+
 :root {
   --color-logo: #4d5ae5;
   --color-text-head: #434455;
@@ -59,8 +66,8 @@ body {
 }
 
 .container {
-  justify-content: space-between;
   display: flex;
+  justify-content: space-between;
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
@@ -78,7 +85,7 @@ body {
 .page-header .menu-item {
   margin-right: 40px;
 }
-.page-header .menu-item:last-child {
+.menu-item:last-child {
   margin-right: 0;
 }
 
@@ -175,12 +182,6 @@ body {
   margin-right: 24px;
   width: calc((100% - 3 * 24px) / 4);
 }
-.menu-skills .menu-item:last-child {
-  margin-right: 0;
-}
-.menu-item {
-  outline: 1px solid red;
-}
 
 .title-description {
   margin-bottom: 8px;
@@ -193,6 +194,24 @@ body {
 /* ***** /Skills ***** */
 
 /* ***** Our Work ***** */
+
+.our-work {
+  padding-bottom: 120px;
+}
+
+.menu-our-work {
+  display: flex;
+}
+
+.our-work .title-section {
+  margin-bottom: 72px;
+}
+
+.our-work .menu-item {
+  margin-right: 24px;
+  width: calc((100% - 3 * 16px) / 3);
+}
+
 .title-section {
   font-weight: 700;
   font-size: 36px;
