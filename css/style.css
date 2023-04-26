@@ -208,16 +208,17 @@ body {
   display: flex;
 }
 
-.our-work .title-section {
-  margin-bottom: 72px;
+.menu-our-work .menu-item {
+  margin-right: 24px;
+  width: calc((100% - 2 * 24px) / 3);
 }
 
 .menu-our-work .menu-item {
-  margin-right: 24px;
-  width: calc((100% - 3 * 16px) / 3);
+  margin-right: 0;
 }
 
 .title-section {
+  margin-bottom: 72px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -232,10 +233,21 @@ body {
 
 .our-team {
   background-color: var(--color-white-light);
+  padding-top: 120px;
+}
+
+.menu-our-team {
+  display: flex;
 }
 
 .menu-our-team .menu-item {
   background-color: var(--bg-color-head);
+  margin-right: 24px;
+  width: calc((100% - 2 * 24px) / 3);
+}
+
+.menu-our-team .menu-item {
+  margin-right: 0;
 }
 
 /* ***** /Our Team ***** */
