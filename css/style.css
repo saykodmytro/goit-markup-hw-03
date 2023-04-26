@@ -130,7 +130,7 @@ body {
 
 /***** /Header *****/
 
-/* ***** Hero ***** */
+/* ***** Hero 1 ***** */
 
 .hero {
   padding-top: 188px;
@@ -167,9 +167,9 @@ body {
 .button-order:focus {
   background-color: var(--color-text-hover-focus);
 }
-/* ***** /Hero ***** */
+/* ***** /Hero  ***** */
 
-/* ***** Skills ***** */
+/* ***** Skills 2 ***** */
 .skills {
   padding-top: 120px;
   padding-bottom: 120px;
@@ -198,7 +198,7 @@ body {
 }
 /* ***** /Skills ***** */
 
-/* ***** Our Work ***** */
+/* ***** Our Work 3 ***** */
 
 .our-work {
   padding-bottom: 120px;
@@ -213,7 +213,7 @@ body {
   width: calc((100% - 2 * 24px) / 3);
 }
 
-.menu-our-work .menu-item {
+.menu-our-work .menu-item:last-child {
   margin-right: 0;
 }
 
@@ -229,7 +229,7 @@ body {
 }
 /* ***** /Our Work ***** */
 
-/* ***** Our Team ***** */
+/* ***** Our Team 4 ***** */
 
 .our-team {
   background-color: var(--color-white-light);
@@ -246,7 +246,7 @@ body {
   width: calc((100% - 2 * 24px) / 3);
 }
 
-.menu-our-team .menu-item {
+.menu-our-team .menu-item:last-child {
   margin-right: 0;
 }
 
