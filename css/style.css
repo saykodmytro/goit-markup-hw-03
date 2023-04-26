@@ -234,6 +234,7 @@ body {
 .our-team {
   background-color: var(--color-white-light);
   padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .menu-our-team {
@@ -244,10 +245,24 @@ body {
   background-color: var(--bg-color-head);
   margin-right: 24px;
   width: calc((100% - 2 * 24px) / 3);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .menu-our-team .menu-item:last-child {
   margin-right: 0;
+}
+
+.container-deskription {
+  padding: 32px 16px;
+}
+
+.container-deskription .title-description {
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.container-deskription .description {
+  text-align: center;
 }
 
 /* ***** /Our Team ***** */
