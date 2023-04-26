@@ -167,15 +167,23 @@ body {
   padding-bottom: 120px;
 }
 
-.menu-skils {
+.menu-skills {
   display: flex;
 }
 
+.menu-skills .menu-item {
+  margin-right: 24px;
+  width: calc((100% - 3 * 24px) / 4);
+}
+.menu-skills .menu-item:last-child {
+  margin-right: 0;
+}
 .menu-item {
   outline: 1px solid red;
 }
 
 .title-description {
+  margin-bottom: 8px;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
