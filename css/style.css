@@ -212,7 +212,7 @@ body {
   margin-bottom: 72px;
 }
 
-.our-work .menu-item {
+.menu-our-work .menu-item {
   margin-right: 24px;
   width: calc((100% - 3 * 16px) / 3);
 }
