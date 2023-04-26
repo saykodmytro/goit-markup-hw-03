@@ -286,7 +286,7 @@ body {
   color: var(--color-white-light);
 }
 
-.link-logo {
+.container .link-logo {
   display: inline-block;
   margin-bottom: 16px;
 }
