@@ -39,6 +39,7 @@ img {
 
 .link {
   text-decoration: none;
+  display: inline-block;
 }
 
 button {
