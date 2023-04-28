@@ -352,7 +352,7 @@ body {
   border-top: none;
 }
 
-.container-card .menu-item {
+.menu-img .menu-item {
   width: calc((100% - 48px) / 3);
 }
 
