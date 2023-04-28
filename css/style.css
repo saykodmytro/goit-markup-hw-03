@@ -1,9 +1,9 @@
-.menu-item {
+/* .menu-item {
   outline: 1px solid red;
 }
 .container {
   outline: 1px solid green;
-}
+} */
 
 :root {
   --color-logo: #4d5ae5;
@@ -154,7 +154,6 @@ body {
 }
 
 .button-order {
-  /* font-family: "Roboto", sans-serif; */
   display: block;
   min-width: 169px;
   height: 56px;
@@ -287,7 +286,7 @@ body {
   color: var(--color-white-light);
 }
 
-.container .link-logo {
+.footer-page .link-logo {
   display: inline-block;
   margin-bottom: 16px;
 }
