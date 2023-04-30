@@ -64,11 +64,14 @@ body {
 }
 
 .container {
-  display: flex;
   justify-content: space-between;
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
+}
+
+.page-header .container {
+  display: flex;
 }
 
 .nav-page {
@@ -137,6 +140,9 @@ body {
 }
 
 .title-page {
+  margin-bottom: 48px;
+  margin-right: auto;
+  margin-left: auto;
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
@@ -147,6 +153,8 @@ body {
 }
 
 .button-order {
+  margin-right: auto;
+  margin-left: auto;
   display: block;
   min-width: 169px;
   height: 56px;
